@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wood"
+    tools:context=".profile"
+    tools:openDrawer="start">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcomeProfile"
+        android:background="@drawable/box2"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <EditText
+        android:id="@+id/telepules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="@string/telep"
+        android:inputType="text"
+        android:importantForAutofill="no" tools:targetApi="o"/>
+
+    <EditText
+        android:id="@+id/utca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="@string/utca"
+        android:inputType="text"
+        android:importantForAutofill="no" tools:targetApi="o"/>
+
+    <EditText
+        android:id="@+id/hsz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="@string/hsz"
+        android:inputType="text"
+        android:importantForAutofill="no" tools:targetApi="o"/>
+
+    <EditText
+        android:id="@+id/irsz"
+        android:layout_width="match_parent"
+        android:background="@drawable/box"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:hint="@string/irsz"
+        android:importantForAutofill="no" tools:targetApi="o"/>
+
+    <EditText
+        android:id="@+id/emelet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="@string/emelet"
+        android:inputType="number"
+        android:importantForAutofill="no" tools:targetApi="o"/>
+
+    <EditText
+        android:id="@+id/ajto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="@string/ajto"
+        android:inputType="text"
+        android:importantForAutofill="no" tools:targetApi="o"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape2"
+        android:text="@string/kuldes" />
+
+
+</LinearLayout>

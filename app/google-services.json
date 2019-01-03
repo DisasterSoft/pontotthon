@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "509108902597",
+    "firebase_url": "https://pontotthon-185607.firebaseio.com",
+    "project_id": "pontotthon-185607",
+    "storage_bucket": "pontotthon-185607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509108902597:android:0acaab9832737ded",
+        "android_client_info": {
+          "package_name": "com.ewulusen.disastersoft.pontottohon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509108902597-ufiot0o03itgguhbkjjd5sql4qubrvm5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ewulusen.disastersoft.pontottohon",
+            "certificate_hash": "d609f374f2133b8cb7c104eb10576cf89cf79890"
+          }
+        },
+        {
+          "client_id": "509108902597-6716i5iussq0bd18i4lf7h2sakurkjna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUwPsxxQ_lySv4JpPza1a62_yFbd3V9Dw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509108902597-6716i5iussq0bd18i4lf7h2sakurkjna.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
