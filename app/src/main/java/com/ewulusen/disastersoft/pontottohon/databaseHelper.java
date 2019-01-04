@@ -509,4 +509,25 @@ public class databaseHelper extends SQLiteOpenHelper {
         }
         return ered;
     }
+    public Cursor getOldKiadasCfByDate(String email,String year,String month)
+    {
+        String uid=getUser(email);
+        SQLiteDatabase localSQLiteDatabase = getReadableDatabase();
+        String extra=" SELECT * FROM "+kiadasTable+" where UID='"+uid+"' and " +
+                "strftime('%m',Created)='"+month+"' and "+
+                "strftime('%Y',Created)='"+year+"' and fix<>'1'";
+        Log.d("getOldKiadasCfByDatesql",extra);
+        Cursor cursor1=localSQLiteDatabase.rawQuery(extra, null);
+        return cursor1;
+    }
+    public Cursor getOldBevetelCfByDate(String email,String year,String month)
+    {
+        String uid=getUser(email);
+        SQLiteDatabase localSQLiteDatabase = getReadableDatabase();
+        String extra=" SELECT * FROM "+bevetelTable+" where UID='"+uid+"' and " +
+                "strftime('%m',Created)='"+month+"' and "+
+                "strftime('%Y',Created)='"+year+"' and fix<>'1'";
+        Cursor cursor1=localSQLiteDatabase.rawQuery(extra, null);
+        return cursor1;
+    }
 }

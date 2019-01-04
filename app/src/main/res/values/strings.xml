@@ -78,6 +78,7 @@
     <string name="hiteladded">Hitel hozzáadva!</string>
     <string name="oldcashflow">Előző havi kimutatások</string>
     <string name="honap">Hónap</string>
+    <string name="valasz">--Válassz a kimutatások közül--</string>
     <!--Gombok-->
     <string name="kuldes">Küldes</string>
     <string name="tovabb">Tovább</string>
