@@ -497,6 +497,16 @@ public class databaseHelper extends SQLiteOpenHelper {
         String ered="üres";
         String uid=getUser(email);
         SQLiteDatabase localSQLiteDatabase = getReadableDatabase();
+        String str1 = "SELECT strftime('%Y',Created) as ev,strftime('%m',Created) as honap FROM "+kiadasTable+" where UID='"+uid+"'";
+        Cursor cursor = localSQLiteDatabase.rawQuery(str1, null);
+        if(cursor.getCount()>0)
+        {
+            ered="";
+            while (cursor.moveToNext())
+            {
+               ered=ered+cursor.getString(cursor.getColumnIndex("ev"))+","+cursor.getString(cursor.getColumnIndex("honap"))+",";
+            }
+        }
         return ered;
     }
 }

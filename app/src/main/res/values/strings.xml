@@ -77,6 +77,7 @@
     <string name="hitelWelcome">Itt a hiteleidet tudod beállítani és törölni őket</string>
     <string name="hiteladded">Hitel hozzáadva!</string>
     <string name="oldcashflow">Előző havi kimutatások</string>
+    <string name="honap">Hónap</string>
     <!--Gombok-->
     <string name="kuldes">Küldes</string>
     <string name="tovabb">Tovább</string>
